@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dev/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro para inscricao: </h1>
+        <form id="form-cadastro">
+            <div class="ask">
+                <label for="nome">Insira seu nome: </label>
+                <input required id="nome" type="text">
+            </div>
+            <div class="ask">
+                <label for="email">Insira seu email: </label>
+                <input required id="email" type="email">
+            </div>
+            <div class="ask">
+                <label for="tel">Insira seu telefone: </label>
+                <input required id="tel" type="tel">
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <div class="result">
+            <div class="result-item">
+                Seu nome e: <span class="result-item-nome"></span>
+            </div>
+            <div class="result-item">
+                Seu email e: <span class="result-item-email"></span>
+            </div>
+            <div class="result-item">
+                Seu telefone e: <span class="result-item-tel"></span>                
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

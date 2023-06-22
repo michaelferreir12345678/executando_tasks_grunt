@@ -1,0 +1,44 @@
+body {
+  background-color: rgba(255, 38, 0, 0.377);
+  font-family: 'Lobster', cursive;
+}
+.container {
+  max-width: 960px;
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+.container h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+form .ask {
+  display: block;
+  margin-bottom: 16px;
+  padding: 12px;
+}
+form input {
+  padding: 8px;
+}
+form button {
+  padding: 10px;
+  width: 20%;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+form button:hover {
+  background-color: #26b4b4;
+  color: white;
+}
+.result {
+  margin-top: 16px;
+  display: none;
+}
+.result-item {
+  margin-bottom: 12px ;
+}

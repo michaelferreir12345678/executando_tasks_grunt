@@ -1,0 +1,61 @@
+@corPrincipal: rgba(255, 166, 0, 0.377);
+@fontTitulo: 'Roboto Condensed', sans-serif;
+@fontPrincipal: 'Lobster', cursive;
+
+
+
+
+body{ 
+    background-color: @corPrincipal;
+    font-family: @fontPrincipal;
+}
+
+.container{
+    max-width: 960px;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    
+    h1{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: @fontTitulo;
+    }
+
+}
+
+form{
+    .ask{
+        display: block;
+        margin-bottom: 16px;
+        padding: 12px;
+    }
+
+    input{
+        padding: 8px;
+    }
+
+    button{
+        padding: 10px;
+        width: 20%;
+        background-color: aqua;
+        border: none;
+        cursor: pointer;
+        color: black;
+        font-weight: bold;
+        font-size: 12px;
+        &:hover{
+            background-color: rgb(38, 180, 180);
+            color: white;
+        }
+    }
+}
+
+.result{
+    margin-top: 16px;
+    display: none;
+    &-item{
+        margin-bottom: 12px ;
+    }
+}
+
