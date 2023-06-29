@@ -26,6 +26,6 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-concurrent');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('uglify', ['uglify']);
+    grunt.registerTask('uglify1', ['uglify']);
     grunt.registerTask('default', ['watch']);
 }
