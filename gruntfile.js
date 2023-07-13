@@ -16,8 +16,8 @@ module.exports = function(grunt){
             }
         },
         watch: {
-            files: ['./src/**/*.less'],
-            tasks: ['less', 'uglify']
+            files: ['./src/**/*'],
+            tasks: ['less', 'uglify1']
         },       
     }),
 
@@ -26,6 +26,5 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-concurrent');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('uglify1', ['uglify']);
     grunt.registerTask('default', ['watch']);
 }

@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('form-cadastro').addEventListener('submit', function(e){
         e.preventDefault();
 
-        const nome = document.getElementById('nome').value;
+        const nome = document.getElementById('idade').value;
         const email = document.getElementById('email').value;
         const tel = document.getElementById('tel').value;
 
@@ -11,6 +11,5 @@ document.addEventListener('DOMContentLoaded', function(){
         document.querySelector('.result-item-tel').innerText = tel
 
         document.querySelector('.result').style.display = 'block';
-
     } )
 })
