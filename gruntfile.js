@@ -17,7 +17,7 @@ module.exports = function(grunt){
         },
         watch: {
             files: ['./src/**/*'],
-            tasks: ['less', 'uglify1']
+            tasks: ['less', 'uglify']
         },       
     }),
 
